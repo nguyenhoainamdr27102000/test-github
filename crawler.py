@@ -63,8 +63,7 @@ url = 'https://mogi.vn/mua-nha-dat?cp=85'
 url =  'https://mogi.vn/mua-nha-dat?cp=95'
 url = 'https://mogi.vn/mua-nha-dat?cp=50'
 url =  'https://mogi.vn/mua-nha-dat?cp=25'
-url = 'https://mogi.vn/mua-nha-dat?cp=88'
-url =  'https://mogi.vn/mua-nha-dat?cp=97'
+
 
 if exists('/home/namnguyen/Workspace/Projects/House-pricing-prediction/House-prising-prediction/housing_price.csv'):
     df = pd.read_csv('/home/namnguyen/Workspace/Projects/House-pricing-prediction/House-prising-prediction/housing_price.csv', index_col=0)
