@@ -59,6 +59,9 @@ def page_crawler(url, homes_dict={}, proxies={}):
     return homes_dict, next_page_link
 
 url = 'https://mogi.vn/mua-nha-dat?cp=75'
+new_url = 'https://mogi.vn/mua-nha-dat?cp=100'
+new_url1 = 'https://mogi.vn/mua-nha-dat?cp=100'
+new_url2 = 'https://mogi.vn/mua-nha-dat?cp=100'
 
 
 if exists('/home/namnguyen/Workspace/Projects/House-pricing-prediction/House-prising-prediction/housing_price.csv'):
