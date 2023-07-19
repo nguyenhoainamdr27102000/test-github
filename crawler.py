@@ -58,8 +58,9 @@ def page_crawler(url, homes_dict={}, proxies={}):
         next_page_link = bs.find('a', {'gtm-act':'next'}).get('href')
     return homes_dict, next_page_link
 
-url = 'https://mogi.vn/mua-nha-dat?cp=75'
-
+# url = 'https://mogi.vn/mua-nha-dat?cp=75'
+url = 'https://mogi.vn/mua-nha-dat?cp=85'
+url =  'https://mogi.vn/mua-nha-dat?cp=95'
 
 if exists('/home/namnguyen/Workspace/Projects/House-pricing-prediction/House-prising-prediction/housing_price.csv'):
     df = pd.read_csv('/home/namnguyen/Workspace/Projects/House-pricing-prediction/House-prising-prediction/housing_price.csv', index_col=0)
