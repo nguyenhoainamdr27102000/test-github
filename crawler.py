@@ -61,7 +61,6 @@ def page_crawler(url, homes_dict={}, proxies={}):
 # url = 'https://mogi.vn/mua-nha-dat?cp=75'
 url = 'https://mogi.vn/mua-nha-dat?cp=85' 
 
-
 if exists('/home/namnguyen/Workspace/Projects/House-pricing-prediction/House-prising-prediction/housing_price.csv'):
     df = pd.read_csv('/home/namnguyen/Workspace/Projects/House-pricing-prediction/House-prising-prediction/housing_price.csv', index_col=0)
     homes_dict = df.to_dict('list')
